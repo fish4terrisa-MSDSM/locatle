@@ -37,7 +37,7 @@ export class GuessHandler {
             this.gameWon();
 
             return true;
-        } else if (this.results.length == 6) {
+        } else if (this.results.length == 20) {
             this.gameOver();
         }
 
